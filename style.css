@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #f0f0f0;
+    background: radial-gradient(ellipse at center, #0d1b2a 0%, #000000 70%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main-container {
+    background: linear-gradient(145deg, #1b263b 0%, #0d1b2a 50%, #000000 100%);
+    border: 2px solid #415a77;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.8),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 1px solid #415a77;
+    padding-bottom: 12px;
+    flex-shrink: 0;
+}
+
+.header h1 {
+    margin: 0 0 8px 0;
+    font-size: 2em;
+    color: #ffd60a;
+    text-shadow: 
+        0 0 20px rgba(255, 214, 10, 0.6),
+        0 0 40px rgba(255, 214, 10, 0.3);
+    background: linear-gradient(45deg, #ffd60a, #ffbe0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.description {
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #e9ecef;
+    margin: 0 0 8px 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.controls {
+    background: linear-gradient(145deg, #415a77, #2c3e50);
+    padding: 8px 16px;
+    border-radius: 6px;
+    display: inline-block;
+    border: 1px solid #6c757d;
+}
+
+.controls p {
+    margin: 0;
+    font-size: 0.85em;
+    color: #f8f9fa;
+}
+
+kbd {
+    background: linear-gradient(145deg, #ffd60a, #ffbe0b);
+    color: #000;
+    padding: 2px 6px;
+    border-radius: 4px;
+    border: 1px solid #ffc107;
+    font-family: monospace;
+    font-size: 0.8em;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(255, 214, 10, 0.3);
+}
+
+.simulation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at center, #000814 0%, #000000 100%);
+    border: 2px solid #415a77;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 
+        inset 0 0 50px rgba(0, 0, 0, 0.8),
+        0 0 20px rgba(65, 90, 119, 0.3);
+    flex: 1;
+    min-height: 0;
+}
+
+#sketch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
+    border-top: 1px solid #415a77;
+    padding-top: 8px;
+    color: #adb5bd;
+    font-size: 0.8em;
+    flex-shrink: 0;
+}

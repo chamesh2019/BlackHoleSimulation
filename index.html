@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Hole Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <div class="controls">
+                <p>Black Hole mass: <span id="black-hole-mass">1 million solar masses</span></p>
+            </div>
+            <div class="controls">
+                <p><strong>Controls:</strong> Press <kbd>SPACE</kbd> to pause/resume | <kbd>CLICK</kbd> to add light ray | <kbd>DRAG</kbd> to set trajectory</p>
+            </div>
+        </div>
+        <div class="simulation-container">
+            <div id="sketch-container"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>
